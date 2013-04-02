@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Lean markup feature.
+ */
+
+include_once 'lean_markup.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Blog overview page feature.
+ */
+
+include_once 'blog_overview_page.features.inc';

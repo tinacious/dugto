@@ -1,0 +1,14 @@
+name = Lean markup
+description = Strip away extraneous markup with Fences
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = lean_markup
+dependencies[] = features
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[user_permission][] = administer features
+features[user_permission][] = manage features
+features[variable][] = fences_default_classes
+features[variable][] = fences_default_markup

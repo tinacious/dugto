@@ -1,0 +1,87 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions 
+ */
+
+/**
+ * Implements hook_install()
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function dugto_install() {
+
+  //Try to install custom_config().
+  module_enable(array('custom_config'));
+  cache_clear_all();
+
+  //Set the default module_enable, but check to see if we can use our custom.
+  $module_enable = 'module_enable';
+  if (module_exists('custom_config') && function_exists('custom_config_module_enable')){
+    $module_enable = 'custom_config_module_enable';
+  }
+
+  // Enable modules
+  $module_enable(array(
+
+    // Contrib
+    'update',
+    'admin_menu',
+    'admin_menu_toolbar',
+    'block',
+    'ctools',
+    'date',
+    'date_api',
+    'date_popup',
+    'date_views',
+    'dblog',
+    'email',
+    'entity',
+    'features',
+    'features_extra',
+    'file',
+    'image',
+    'globalredirect',
+    'list',
+    'locale',
+    'menu',
+    'number',
+    'options',
+    'panels',
+    'path',
+    'pathauto',
+    'strongarm',
+    'token',
+    'translation',
+    'variable',
+    'field_ui',
+    'entityreference',
+    'entityreference_prepopulate',
+    'views',
+    'view_bulk_operations',
+    'module_filter',
+    'views_ui',
+    'ds',
+    'ds_devel',
+    'ds_extras',
+    'ds_ui',
+    'devel_generate',
+    'admin_devel',
+    'taxonomy',
+
+    // Custom modules
+    'custom_config',
+
+    // Features
+    'lean_markup',
+    'blog_overview_page',
+    'basic_page',
+
+    // theme set - once we have a theme, enable this install hook
+    // 'dugto_theme_settings',
+
+    )
+  );
+}
