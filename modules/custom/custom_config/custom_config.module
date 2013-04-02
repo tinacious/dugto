@@ -8,12 +8,12 @@
 /**
  * Project machine name.
  */
-define('PROJECT_NAME', 'team_atomic');
+define('PROJECT_NAME', 'dugto_theme');
 
 /**
  * Project label.
  */
-define('PROJECT_LABEL', 'Team Atomic');
+define('PROJECT_LABEL', 'DugTO theme');
 
 /**
  * Config admin path.

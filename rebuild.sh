@@ -13,3 +13,7 @@ done
 drush make --yes --working-copy --no-core --contrib-destination=. drupal-org.make
 drush cc-ri
 drush cc-rpi
+
+# Theme Set
+drush vset theme_default dugto
+drush vset admin_theme seven
