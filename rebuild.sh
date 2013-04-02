@@ -13,5 +13,3 @@ done
 drush make --yes --working-copy --no-core --contrib-destination=. drupal-org.make
 drush cc-ri
 drush cc-rpi
-
-# TODO: Copy default.settings.php and append snippets again.

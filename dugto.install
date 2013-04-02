@@ -84,7 +84,7 @@ function dugto_install() {
     'basic_page',
 
     // theme set - once we have a theme, enable this install hook
-    'dugto_theme_settings',
+    // 'dugto_theme_settings',
 
     )
   );
