@@ -15,5 +15,7 @@ drush cc-ri
 drush cc-rpi
 
 # Theme Set
+drush pm-enable dugto -y
+drush pm-disable bartik -y
 drush vset theme_default dugto
 drush vset admin_theme seven
