@@ -28,25 +28,36 @@ function dugto_install() {
 
     // Contrib
     'update',
+    'admin_devel',
     'admin_menu',
     'admin_menu_toolbar',
     'block',
     'ctools',
+    'context',
+    'context_ui',
     'date',
     'date_api',
     'date_popup',
     'date_views',
     'dblog',
+    'devel_generate',
+    'ds',
+    'ds_devel',
+    'ds_extras',
+    'ds_ui',
     'email',
     'entity',
     'features',
     'features_extra',
+    'fences',
     'file',
-    'image',
+    'flippy',
     'globalredirect',
+    'image',
     'list',
     'locale',
     'menu',
+    'module_filter',
     'number',
     'options',
     'panels',
@@ -61,14 +72,7 @@ function dugto_install() {
     'entityreference_prepopulate',
     'views',
     'view_bulk_operations',
-    'module_filter',
-    'views_ui',
-    'ds',
-    'ds_devel',
-    'ds_extras',
-    'ds_ui',
-    'devel_generate',
-    'admin_devel',
+    'views_ui',    
     'taxonomy',
 
     // Custom modules
@@ -80,7 +84,7 @@ function dugto_install() {
     'basic_page',
 
     // theme set - once we have a theme, enable this install hook
-    // 'dugto_theme_settings',
+    'dugto_theme_settings',
 
     )
   );

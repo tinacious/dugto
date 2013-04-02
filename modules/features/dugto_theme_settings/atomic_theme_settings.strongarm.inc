@@ -7,7 +7,7 @@
 /**
  * Implements hook_strongarm().
  */
-function atomic_theme_settings_strongarm() {
+function dugto_theme_settings_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
@@ -42,7 +42,7 @@ function atomic_theme_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'petnation';
+  $strongarm->value = 'dugto';
   $export['theme_default'] = $strongarm;
 
   return $export;

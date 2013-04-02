@@ -8,13 +8,13 @@ core = 7.x
 ; Ascending Alphabetical order from the module name
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
-projects[codefilter] = contrib
-projects[codefilter] = 1.0
+projects[codefilter][subdir] = contrib
+projects[codefilter][version] = 1.0
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -35,7 +35,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
@@ -46,14 +46,14 @@ projects[entityreference_prepopulate][version] = 1.2
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
-projects[fences] = contrib
-projects[fences] = 1.0
+projects[fences][subdir] = contrib
+projects[fences][version] = 1.0
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
 
-projects[flippy] = contrib
-projects[flippy] = 1.0
+projects[flippy][subdir] = contrib
+projects[flippy][version] = 1.0
 
 projects[i18n][subdir] = contrib
 projects[i18n][version] = 1.7
@@ -73,16 +73,16 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 
 projects[variable][subdir] = contrib
-projects[variable][version] = 2.1
+projects[variable][version] = 2.2
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.6
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
